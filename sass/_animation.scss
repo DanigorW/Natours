@@ -1,0 +1,65 @@
+/****** animations for header ******/
+
+@keyframes header-logo {
+  0% {
+    opacity: 0;
+    transform: translateY(1000px);
+  }
+
+  80% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes header-h1 {
+  0% {
+    opacity: 0;
+    transform: translateX(-1000px);
+  }
+
+  80% {
+    transform: translateX(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes header-p {
+  0% {
+    opacity: 0;
+    transform: translateX(1000px);
+  }
+
+  80% {
+    transform: translateX(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes header-a {
+  0% {
+    opacity: 0;
+    transform: translateY(1000px);
+  }
+
+  80% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
